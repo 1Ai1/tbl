@@ -1,0 +1,32 @@
+.red{
+	color: red;
+	margin-top: -39px;
+	margin-bottom: 27px;
+	display: flex;
+}
+table{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 100px;
+	text-align: center;
+}
+table, th, td{
+	border: 1px solid black;
+  	border-collapse: collapse;
+}
+td{
+	height: 100px;
+}
+.box{
+	width: 30%;
+	margin-left: 35%;
+}
+.box *{
+	width: 100%;
+}
+#password{
+	margin-bottom: 10px;
+}
+.button{
+	margin-left: 3px;
+}
