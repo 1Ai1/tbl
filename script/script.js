@@ -1,6 +1,5 @@
 function doo() {
   let p = document.getElementById("password");
-  console.log(p.value);
   if(p.value == 73){
      let f = document.getElementsByClassName("f");
       for(let i = 0 ; i < 64 ; i++){
