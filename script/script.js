@@ -71,6 +71,19 @@ function doo() {
 
 
 
+let a = [
+   [53 , 1 , 12 , 7],
+   [11 , 8 , 52 , 2],
+   [5 , 10 , 3 , 55],
+   [4 , 54 , 6 , 9]
+];
+for(let i = 0 ; i < 4 ; i ++){
+   let arrText='';
+   for(let j = 0 ; j < 4; j++){
+      arrText+=a[i][j]+' ';
+   }
+   console.log(arrText);
+}
 
 
 
