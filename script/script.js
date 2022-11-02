@@ -94,6 +94,9 @@ for(let i = 0 ; i < 4 ; i ++){
 
 
 
-document.addEventListener('keypress',(event) => {
-  doo()
-}, false);
+document.addEventListener('keypress',function (e) {
+    if (e.key === 'Enter') {
+      doo();
+   }
+});
+
